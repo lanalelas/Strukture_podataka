@@ -9,6 +9,8 @@ relatvan_br_bodova = br_bodova / max_br_bodova * 100*/
 #include <stdlib.h>
 #define MAX_ZNAKOVA (128)
 #define MAX_LINE (1024)
+#define FILE_ERROR_OPEN (-1)
+
 
 typedef struct studenti
 {
@@ -23,6 +25,18 @@ student* allocateMemoryAndReadStudents(int noRows, char* datoteka);
 double calculateRelativePoints(int noRows, student* students);
 int showStudents(int noRows, student* students);
 
+int main()
+{
+    int noRows = 0;
+    student* students = NULL;
+    noRows = readNoRowsInFile("datoteka.txt");
+    students = allocateMemoryAndReadStudents(noRows, "datoteka.txt");
+    showStudents(noRows, students);
+    free(students);
+
+    return 0;
+}
+
 //Funkcija prebrojava redove u datoteci
 int readNoRowsInFile(char* datoteka)
 {
@@ -34,7 +48,7 @@ int readNoRowsInFile(char* datoteka)
     if (!filePointer)
     {
         printf("Neuspjesno otvaranje datoteke.\n");
-        return -1;
+        return FILE_ERROR_OPEN;
     }
     while (!feof(filePointer))
     {
@@ -59,8 +73,7 @@ student* allocateMemoryAndReadStudents(int noRows, char* datoteka)
     if (!filePointer)
     {
         printf("Neuspjesna alokacija memorije.\n");
-        free(students);
-        return NULL;
+        return FILE_ERROR_OPEN;
     }
     for (i = 0; i < noRows ; i++)
     {
@@ -68,6 +81,7 @@ student* allocateMemoryAndReadStudents(int noRows, char* datoteka)
     }
 
     fclose(filePointer);
+    free(students);
 
     return students;
 }
@@ -100,16 +114,4 @@ int showStudents(int noRows, student* students)
     {
         printf("%s\t%s\t%.3lf\t%.3lf%\n", students[i].name, students[i].surname, students[i].points, students[i].points/maxPoints*100);
     }
-}
-
-int main()
-{
-    int noRows = 0;
-    student* students = NULL;
-    noRows = readNoRowsInFile("datoteka.txt");
-    students = allocateMemoryAndReadStudents(noRows, "datoteka.txt");
-    showStudents(noRows, students);
-    free(students);
-
-    return 0;
 }
