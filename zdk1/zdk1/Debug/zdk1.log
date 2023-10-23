@@ -1,0 +1,4 @@
+﻿  zdk1.c
+C:\Users\Korisnik\Documents\Strukture_podataka\zdk1\zdk1\zdk1.c(102,16): warning C4778: 'printf' : unterminated format string '%\n'
+C:\Users\Korisnik\Documents\Strukture_podataka\zdk1\zdk1\zdk1.c(104): warning C4716: 'showStudents': must return a value
+  zdk1.vcxproj -> C:\Users\Korisnik\Documents\Strukture_podataka\zdk1\Debug\zdk1.exe
