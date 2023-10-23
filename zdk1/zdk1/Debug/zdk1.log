@@ -1,0 +1,5 @@
+﻿  zdk1.c
+C:\Users\Korisnik\Downloads\Strukture_podataka\zdk1\zdk1\zdk1.c(77,31): warning C4047: 'return': 'student *' differs in levels of indirection from 'int'
+C:\Users\Korisnik\Downloads\Strukture_podataka\zdk1\zdk1\zdk1.c(115,16): warning C4778: 'printf' : unterminated format string '%\n'
+C:\Users\Korisnik\Downloads\Strukture_podataka\zdk1\zdk1\zdk1.c(117): warning C4716: 'showStudents': must return a value
+  zdk1.vcxproj -> C:\Users\Korisnik\Downloads\Strukture_podataka\zdk1\Debug\zdk1.exe
