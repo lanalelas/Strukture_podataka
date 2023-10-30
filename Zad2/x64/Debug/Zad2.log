@@ -1,0 +1,5 @@
+﻿  zdk2.c
+C:\Users\Korisnik\Downloads\Zad2\zdk2.c(67,24): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'Position'
+C:\Users\Korisnik\Downloads\Zad2\zdk2.c(67,24): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'char *'
+C:\Users\Korisnik\Downloads\Zad2\zdk2.c(67,24): warning C4313: 'printf': '%d' in format string conflicts with argument 2 of type 'char *'
+  Zad2.vcxproj -> C:\Users\Korisnik\Downloads\Zad2\x64\Debug\Zad2.exe
