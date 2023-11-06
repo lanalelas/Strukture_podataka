@@ -1,7 +1,7 @@
 ﻿  zdk3.c
-C:\Users\Korisnik\Downloads\Strukture_podataka\Zdk3\zdk3.c(77,24): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'Position'
-C:\Users\Korisnik\Downloads\Strukture_podataka\Zdk3\zdk3.c(77,24): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'char *'
-C:\Users\Korisnik\Downloads\Strukture_podataka\Zdk3\zdk3.c(77,24): warning C4313: 'printf': '%d' in format string conflicts with argument 2 of type 'char *'
-C:\Users\Korisnik\Downloads\Strukture_podataka\Zdk3\zdk3.c(98,28): warning C4013: 'inputListToFIle' undefined; assuming extern returning int
-C:\Users\Korisnik\Downloads\Strukture_podataka\Zdk3\zdk3.c(101,30): warning C4013: 'inputListFromFile' undefined; assuming extern returning int
-  Zdk3.vcxproj -> C:\Users\Korisnik\Downloads\Strukture_podataka\Zdk3\x64\Debug\Zdk3.exe
+C:\Users\Korisnik\Downloads\Strukture_podataka\zdk3\zdk3.c(77,24): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'Position'
+C:\Users\Korisnik\Downloads\Strukture_podataka\zdk3\zdk3.c(77,24): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'char *'
+C:\Users\Korisnik\Downloads\Strukture_podataka\zdk3\zdk3.c(77,24): warning C4313: 'printf': '%d' in format string conflicts with argument 2 of type 'char *'
+C:\Users\Korisnik\Downloads\Strukture_podataka\zdk3\zdk3.c(98,28): warning C4013: 'inputListToFIle' undefined; assuming extern returning int
+C:\Users\Korisnik\Downloads\Strukture_podataka\zdk3\zdk3.c(101,30): warning C4013: 'inputListFromFile' undefined; assuming extern returning int
+  Zdk3.vcxproj -> C:\Users\Korisnik\Downloads\Strukture_podataka\zdk3\x64\Debug\Zdk3.exe
