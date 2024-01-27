@@ -1,0 +1,4 @@
+﻿  10.c
+C:\Users\Korisnik\Downloads\Strukture_podataka\zdk10\10.c(320,14): warning C4047: 'return': 'int' differs in levels of indirection from 'void *'
+C:\Users\Korisnik\Downloads\Strukture_podataka\zdk10\10.c(368,22): warning C4047: 'return': 'positionTreeNodeB' differs in levels of indirection from 'int'
+  zdk10.vcxproj -> C:\Users\Korisnik\Downloads\Strukture_podataka\zdk10\x64\Debug\zdk10.exe
