@@ -1,0 +1,7 @@
+﻿  11.c
+C:\Users\Korisnik\Downloads\Strukture_podataka\zdk11\11.c(58,52): warning C4133: 'function': incompatible types - from 'char [11]' to 'FILE *'
+C:\Users\Korisnik\Downloads\Strukture_podataka\zdk11\11.c(112,32): warning C4133: 'function': incompatible types - from 'FILE *' to 'const char *'
+C:\Users\Korisnik\Downloads\Strukture_podataka\zdk11\11.c(151,8): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\Korisnik\Downloads\Strukture_podataka\zdk11\11.c(154,40): warning C4013: 'strcmp' undefined; assuming extern returning int
+C:\Users\Korisnik\Downloads\Strukture_podataka\zdk11\11.c(297,14): warning C4047: 'return': 'int' differs in levels of indirection from 'void *'
+  zdk11.vcxproj -> C:\Users\Korisnik\Downloads\Strukture_podataka\zdk11\Debug\zdk11.exe
